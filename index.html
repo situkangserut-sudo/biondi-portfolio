@@ -25,15 +25,19 @@
 <main>
   <div class="wrap">
 
-    <section class="block">
-      <h1>Product Designer, Enterprise &amp; Identity Products</h1>
-      <p class="subtitle">Jakarta, Indonesia</p>
+    <section class="hero" data-reveal>
+      <span class="eyebrow">Jakarta, Indonesia · Open to new roles</span>
+      <h1>Hi, I'm Muhammad —<br><span class="serif">a product designer</span><br>for enterprise &amp; identity.</h1>
       <p class="lede">
         I design complex enterprise and identity experiences that make technical workflows clearer,
         more consistent, and easier for users and teams to operate. Currently at VIDA Digital Identity,
         owning design across authentication, digital signing, identity verification, self-service portal,
         and SSL.
       </p>
+      <div class="hero-cta">
+        <a class="btn primary" href="#work">View selected work</a>
+        <a class="btn" href="mailto:muhammadbiondi@gmail.com">Get in touch</a>
+      </div>
       <div class="tag-row">
         <span class="tag">Identity &amp; Auth</span>
         <span class="tag">B2B SaaS</span>
@@ -42,8 +46,10 @@
       </div>
     </section>
 
-    <section class="block">
-      <h2>Selected work</h2>
+    <section class="block" id="work" data-reveal>
+      <div class="section-head">
+        <h2>Selected work</h2>
+      </div>
       <p class="lede" style="margin-bottom: 0;">
         These case studies are being written and verified against real project evidence — some sections
         are still in progress. I'd rather show honest work-in-progress than overstate what's finished.
@@ -52,38 +58,82 @@
       <div class="case-grid">
 
         <a class="case-card" href="case-studies/billing-usage-policy.html">
-          <span class="status-pill in-progress">In progress</span>
-          <h3>Billing, Usage &amp; Policy Dashboard</h3>
-          <p>Owning the full design cycle for billing, usage, policy, and authentication products — from
-          discovery and flow mapping through prototyping, testing, and engineering handoff.</p>
+          <div class="case-thumb" style="--thumb-a:#c7f464; --thumb-b:#3f6212;" data-mark="01"></div>
+          <div class="case-body">
+            <span class="status-pill in-progress">In progress</span>
+            <h3>Billing, Usage &amp; Policy Dashboard</h3>
+            <p>Owning the full design cycle for billing, usage, policy, and authentication products — from
+            discovery and flow mapping through prototyping, testing, and engineering handoff.</p>
+            <span class="case-arrow">Read case study →</span>
+          </div>
         </a>
 
         <a class="case-card" href="case-studies/auth-rbac-workflows.html">
-          <span class="status-pill in-progress">In progress</span>
-          <h3>Auth, RBAC &amp; Approval Workflows</h3>
-          <p>Designing role/permission logic, multi-level approval chains, and authentication setup flows
-          for VIDA's enterprise self-service portal.</p>
+          <div class="case-thumb" style="--thumb-a:#a7e8bd; --thumb-b:#1c3306;" data-mark="02"></div>
+          <div class="case-body">
+            <span class="status-pill in-progress">In progress</span>
+            <h3>Auth, RBAC &amp; Approval Workflows</h3>
+            <p>Designing role/permission logic, multi-level approval chains, and authentication setup flows
+            for VIDA's enterprise self-service portal.</p>
+            <span class="case-arrow">Read case study →</span>
+          </div>
         </a>
 
         <a class="case-card" href="case-studies/liveness-verification.html">
-          <span class="status-pill in-progress">In progress</span>
-          <h3>Liveness &amp; Identity Verification</h3>
-          <p>Usability testing on the liveness verification flow uncovered that ~90% of users were
-          skipping the tutorial — a finding that changed the design direction.</p>
+          <div class="case-thumb" style="--thumb-a:#ecfccb; --thumb-b:#4d7c0f;" data-mark="03"></div>
+          <div class="case-body">
+            <span class="status-pill in-progress">In progress</span>
+            <h3>Liveness &amp; Identity Verification</h3>
+            <p>Usability testing on the liveness verification flow uncovered that ~90% of users were
+            skipping the tutorial — a finding that changed the design direction.</p>
+            <span class="case-arrow">Read case study →</span>
+          </div>
         </a>
 
         <a class="case-card" href="case-studies/design-system.html">
-          <span class="status-pill in-progress">In progress</span>
-          <h3>Design System Foundations</h3>
-          <p>Building color, typography, and spacing tokens with WCAG compliance and HTML
-          documentation as the reference for engineering.</p>
+          <div class="case-thumb" style="--thumb-a:#d9f99d; --thumb-b:#365314;" data-mark="04"></div>
+          <div class="case-body">
+            <span class="status-pill in-progress">In progress</span>
+            <h3>Design System Foundations</h3>
+            <p>Building color, typography, and spacing tokens with WCAG compliance and HTML
+            documentation as the reference for engineering.</p>
+            <span class="case-arrow">Read case study →</span>
+          </div>
         </a>
 
       </div>
     </section>
 
-    <section class="block">
-      <h2>What I actually do</h2>
+    <section class="block" data-reveal>
+      <div class="section-head">
+        <h2>How I work</h2>
+      </div>
+      <div class="process-grid">
+        <div class="process-card">
+          <span class="process-num">01</span>
+          <h3>Understand</h3>
+          <p>Start from the real constraint — compliance, engineering, or the user's actual workflow —
+          rather than the brief as written.</p>
+        </div>
+        <div class="process-card">
+          <span class="process-num">02</span>
+          <h3>Design</h3>
+          <p>Prototype against edge cases early: partial permissions, revoked access, skipped steps —
+          the paths most designs forget.</p>
+        </div>
+        <div class="process-card">
+          <span class="process-num">03</span>
+          <h3>Verify</h3>
+          <p>Test assumptions, not just flows. The liveness tutorial case study exists because I checked
+          whether a step was working, not just whether it shipped.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" data-reveal>
+      <div class="section-head">
+        <h2>What I actually do</h2>
+      </div>
       <p class="lede">
         At VIDA I work across 5 product streams with 8+ product managers, and collaborate daily with
         engineering, sales, BD, and marketing. The Web SDK alone has 59+ screens I designed and
@@ -91,6 +141,14 @@
         POS systems at Pawoon, and grocery e-commerce at HappyFresh.
       </p>
     </section>
+
+    <div class="cta-band" data-reveal>
+      <h2>Let's work together</h2>
+      <p>Open to new product design roles — reach out if you're hiring or just want to talk shop.</p>
+      <a class="btn" href="mailto:muhammadbiondi@gmail.com">Say hello</a>
+    </div>
+
+    <div class="wordmark"><span>Muhammad Biondi</span></div>
 
   </div>
 </main>
@@ -106,5 +164,6 @@
   </div>
 </footer>
 
+<script src="js/script.js"></script>
 </body>
 </html>
