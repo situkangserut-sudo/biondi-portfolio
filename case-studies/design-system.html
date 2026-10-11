@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Design System Foundations — Muhammad Biondi</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <nav>
+      <span class="brand">Muhammad Biondi</span>
+      <div class="site-nav">
+        <a href="../index.html">Work</a>
+        <a href="../cv.html">CV</a>
+        <a href="mailto:muhammadbiondi@gmail.com">Contact</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <span class="status-pill in-progress">In progress</span>
+    <h1>Design System Foundations</h1>
+    <p class="subtitle">VIDA Digital Identity — Web SDK &amp; platform design system</p>
+
+    <div class="callout">
+      <strong>Status:</strong> This case study is still being written. The scope and role notes below
+      are accurate; token tables, documentation screenshots, and adoption notes still need to be pulled
+      together.
+    </div>
+
+    <section class="block">
+      <h2>Context</h2>
+      <p>
+        VIDA's products span 5 streams built by different teams. Without a shared design system, each
+        stream risked drifting visually and structurally from the others. I built the foundational design
+        system — color, typography, and spacing tokens — along with the Web SDK, which became the single
+        source of truth engineers reference when building verification flows.
+      </p>
+    </section>
+
+    <section class="block">
+      <h2>Problem</h2>
+      <p>
+        Two separate but related problems: first, there was no documented, WCAG-compliant foundation
+        for color and type that engineering could build against with confidence. Second, the Web SDK's
+        screens had grown without a single reusable structure, making it harder for engineers to know
+        which existing screen type to reuse versus build new.
+      </p>
+    </section>
+
+    <section class="block">
+      <h2>My role</h2>
+      <ul class="clean">
+        <li>Defined color, typography, and spacing tokens with WCAG compliance as a baseline requirement,
+        not an afterthought.</li>
+        <li>Documented the system in HTML so engineering had a living reference rather than a static
+        file that would go stale.</li>
+        <li>Built and maintain the Web SDK as the SSOT: 59+ screens spanning 5 verification flows, 5
+        prototypes, and 12 reusable screen types.</li>
+        <li>Applied VIDA's updated brand identity across product flows during a platform-wide redesign,
+        working with the PM to align experience goals with business requirements.</li>
+      </ul>
+    </section>
+
+    <section class="block">
+      <h2>Why 12 reusable screen types mattered</h2>
+      <p>
+        Rather than designing each new verification flow from scratch, engineers and designers could
+        compose new flows from a known set of 12 screen types. This made new flows faster to build and
+        kept the verification experience consistent across streams — a user moving from one VIDA product
+        to another wasn't relearning a new visual language each time.
+      </p>
+    </section>
+
+    <section class="block">
+      <h2>Outcome</h2>
+      <div class="callout">
+        <strong>Evidence gap:</strong> I haven't yet attached token tables, documentation screenshots, or
+        measured how much faster new flows actually got to build using the reusable screen types. Those
+        will be added once I have the real artifacts in hand.
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>Muhammad Biondi — Product Designer</div>
+    <div class="contact-row">
+      <a href="mailto:muhammadbiondi@gmail.com">muhammadbiondi@gmail.com</a>
+      <a href="https://linkedin.com/in/muhammad-biondi-2509a165">LinkedIn</a>
+      <a href="../cv.html">View CV</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

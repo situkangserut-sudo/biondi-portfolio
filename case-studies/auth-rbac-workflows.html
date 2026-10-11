@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auth, RBAC &amp; Approval Workflows — Muhammad Biondi</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <nav>
+      <span class="brand">Muhammad Biondi</span>
+      <div class="site-nav">
+        <a href="../index.html">Work</a>
+        <a href="../cv.html">CV</a>
+        <a href="mailto:muhammadbiondi@gmail.com">Contact</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <span class="status-pill in-progress">In progress</span>
+    <h1>Auth, RBAC &amp; Approval Workflows</h1>
+    <p class="subtitle">VIDA Digital Identity — Self-service Portal</p>
+
+    <div class="callout">
+      <strong>Status:</strong> This case study is still being written. The role and process notes below
+      are accurate, but I haven't yet pulled final screens or verified rollout numbers, so there's no
+      results section yet.
+    </div>
+
+    <section class="block">
+      <h2>Context</h2>
+      <p>
+        Client organizations using VIDA's Self-service Portal needed to manage who on their team could
+        do what: configure authentication settings, approve sensitive changes, and set up role-based
+        access without needing VIDA's internal team to do it for them. I designed the role/permission
+        logic, approval chains, and authentication setup flows for this.
+      </p>
+    </section>
+
+    <section class="block">
+      <h2>Problem</h2>
+      <p>
+        Access control inside an enterprise identity product is high-stakes by nature — getting it wrong
+        either locks legitimate admins out or over-grants permissions. The existing flows had grown
+        ad hoc as new permission types were added, and there wasn't a consistent pattern for how
+        multi-level approvals (e.g., a change requiring sign-off from more than one role) should work.
+      </p>
+    </section>
+
+    <section class="block">
+      <h2>My role</h2>
+      <ul class="clean">
+        <li>Designed role and permission logic for client-side admin accounts, including reusable page
+        templates so new permission types didn't require redesigning the pattern each time.</li>
+        <li>Designed multi-level approval chain flows for sensitive configuration changes.</li>
+        <li>Worked on authentication setup flows as part of the broader Verify and Authentication stream,
+        alongside usability testing and VIDA's brand rollout across these flows.</li>
+        <li>Collaborated with engineering on edge cases — partial approvals, revoked permissions mid-flow,
+        and what an admin sees when they lack access to a given action.</li>
+      </ul>
+    </section>
+
+    <section class="block">
+      <h2>Working with a real banking-sector client</h2>
+      <p>
+        Part of this work involved a project with a banking-sector client, where authentication and
+        verification requirements were shaped directly by that client's compliance and security needs.
+        I'm keeping specifics about that client and its internal requirements out of this write-up —
+        the work itself (auth design, usability testing, brand rollout) is represented in the bullets
+        above without naming names.
+      </p>
+    </section>
+
+    <section class="block">
+      <h2>Outcome</h2>
+      <div class="callout">
+        <strong>Evidence gap:</strong> No verified rollout or adoption numbers yet for this case study —
+        this section will stay empty until I have something real to show.
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>Muhammad Biondi — Product Designer</div>
+    <div class="contact-row">
+      <a href="mailto:muhammadbiondi@gmail.com">muhammadbiondi@gmail.com</a>
+      <a href="https://linkedin.com/in/muhammad-biondi-2509a165">LinkedIn</a>
+      <a href="../cv.html">View CV</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
